@@ -1,5 +1,8 @@
 .vscode
-build/*
+build/CMakeFiles
+build/cmake_install.cmake
+build/CMakeCache.txt
+build/Makefile
 bin/app
 .idea
 cmake-build-debug
