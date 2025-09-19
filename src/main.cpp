@@ -6,6 +6,7 @@
 int main()
 {
     int select = 0;
+    load_stu_from_file();
     do
     {
         std::cout << "select 1.add stu 2.delete stu 3.update stu 4.query stu 5.show all stu 6.exit " << std::endl;
@@ -42,7 +43,6 @@ int main()
             select = 6;
             break;
         }
-
     } while (select != 6);
 
     std::cout << "exit" << std::endl;
